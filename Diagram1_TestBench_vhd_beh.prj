@@ -1,0 +1,2 @@
+vhdl work "DIAGRAM1.vhd"
+vhdl work "../rs-232/Diagram1_TestBench.vhd"

@@ -1,0 +1,114 @@
+iMPACT Version: 
+iMPACT log file Started on Fri Aug 28 09:57:41 2009
+
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref ConcurrentMode:FALSE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref UserLevel:NOVICE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : loadProjectFile -file "C:/bugra/Project/Project.ipf"
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/xcfp/data/xcf32p.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf32p successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1835 - Loading CFI file -- File ? --.cfi
+CFI file not found, proceed with device default setting.
+'3': Loading file 'C:/bugra/Project/top_module.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/virtex4/data/xc4vfx12.bsd...
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '3': Added Device xc4vfx12 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/xc9500xl/data/xc95144xl.bsd...
+INFO:iMPACT:501 - '4': Added Device xc95144xl successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+ Count ReleaseSemaphore rc = 298.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0. LPT base address = 0378h.
+ ECP base address = 0778h.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0.Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver xusbdfwu.sys version: 1021 (1027).
+ Driver windrvr6.sys version = 7.0.0.0. Cable PID = 0008.
+ Max current requested during enumeration is 280 mA.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+// *** BATCH CMD : Program -p 3 -s -defaultVersion 0 
+PROGRESS_START - Starting Operation.
+Chain TCK freq = 10000000.
+Chain TCK freq = 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Entering secure mode...done.
+'3':Programming  device...
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+End of startup signal from Startup block          :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         1
+Value of MODE pin M2                              :         1
+Internal signal indicates when housecleaning is completed:         1
+Value driver in from INIT pad                     :         1
+Internal signal indicates that chip is configured :         1
+Value of DONE pin                                 :         1
+Indicates when ID value written does not match chip ID:         0
+Decryptor error Signal                            :         0
+System Monitor Over-Temperature Alarm             :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1111 1110 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT:580 - '3':Checking done pin ....done.
+'3': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.

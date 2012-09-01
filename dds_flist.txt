@@ -1,0 +1,11 @@
+# Output products list for <dds>
+dds.asy
+dds.edn
+dds.sym
+dds.v
+dds.veo
+dds.vhd
+dds.vho
+dds.xco
+dds_flist.txt
+dds_SINCOS_TABLE_TRIG_ROM.mif

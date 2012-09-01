@@ -1,0 +1,543 @@
+StateCAD ver 0 0 0 0 0 0 0 0 0 0 1281 0 0 0 Copyright 1992-2001 Xilinx, Inc.All rights reserved.
+header descri 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+font type 0 0 0 0 0 0 0 0 0 0 10 0 400 49 Times New Roman
+else implicit 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+symbolic on 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+output vhdl 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ctype char 0 0 0 0 0 0 0 0 0 0 0 0 0 0 bits
+vtype std 0 0 0 0 0 0 0 0 0 0 0 0 0 0 std_logicstd_logic_vector
+vtarget xilinx 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+vetarget synopsis 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+milib save 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ahlib save 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+tname off 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ext set 0 0 0 0 0 0 0 0 0 0 0 0 0 0 vvhd
+tuser save 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+pnum on 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+fuser save 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+alib save 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+clib save 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+vlib save 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+velib save 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+auto_sv on 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+cmain on 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+cdebug on 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+diovhdl off 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+dioextern off 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+minimize low 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+vectorio on 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+hidesv on 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+pipeline speed 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+clkcnt on 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+optio on 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+autodel off 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+header title 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+header clock 0 0 0 0 0 0 0 0 0 0 5 7 1 0 CLK
+header device 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+fitter on 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+check for 0 0 0 0 0 0 0 0 0 0 142 0 0 0 
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 BantKaydet
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 BantKaydet
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 BantSecimi
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 BantSecimi
+variable add 0 0 0 0 0 0 0 0 0 0 8 7 1 0 Buffer_Data
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Buffer_Data
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Buffer_Data0
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Buffer_Data0
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Buffer_Data1
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Buffer_Data1
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Buffer_Data2
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Buffer_Data2
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Buffer_Data3
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Buffer_Data3
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Buffer_Data4
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Buffer_Data4
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Buffer_Data5
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Buffer_Data5
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Buffer_Data6
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Buffer_Data6
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Buffer_Data7
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Buffer_Data7
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 Buffer_Read
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Buffer_Read
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Buffer_Write
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Buffer_Write
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Counter
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Counter
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Counter0
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Counter0
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Counter1
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Counter1
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Counter2
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Counter2
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Counter3
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Counter3
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Counter4
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Counter4
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Counter5
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Counter5
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Counter6
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Counter6
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Counter7
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Counter7
+variable add 0 0 0 0 0 0 0 0 0 0 8 7 1 0 Data
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Data
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Data0
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Data0
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Data1
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Data1
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Data2
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Data2
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Data3
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Data3
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Data4
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Data4
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Data5
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Data5
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Data6
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Data6
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Data7
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Data7
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Data_Present
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Data_Present
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 Data_Read
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Data_Read
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 0 0 Finished
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Finished
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 FrekansBandi
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 FrekansBandi
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 FrekansKaydet
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 FrekansKaydet
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 0 0 Increment
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Increment
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 MainBantKaydet
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 MainBantKaydet
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 MainMenu
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 MainMenu
+variable add 0 0 0 0 0 0 0 0 0 0 6 7 1 0 Menu_Addres
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Menu_Addres
+variable add 0 0 0 0 0 0 0 0 0 0 6 7 1 0 Menu_Addres0
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Menu_Addres0
+variable add 0 0 0 0 0 0 0 0 0 0 6 7 1 0 Menu_Addres1
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Menu_Addres1
+variable add 0 0 0 0 0 0 0 0 0 0 6 7 1 0 Menu_Addres2
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Menu_Addres2
+variable add 0 0 0 0 0 0 0 0 0 0 6 7 1 0 Menu_Addres3
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Menu_Addres3
+variable add 0 0 0 0 0 0 0 0 0 0 6 7 1 0 Menu_Addres4
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Menu_Addres4
+variable add 0 0 0 0 0 0 0 0 0 0 6 7 1 0 Menu_Addres5
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Menu_Addres5
+variable add 0 0 0 0 0 0 0 0 0 0 6 7 1 0 Menu_Addres6
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Menu_Addres6
+variable add 0 0 0 0 0 0 0 0 0 0 6 7 1 0 Menu_Addres7
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Menu_Addres7
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Other_Counter
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Other_Counter
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Other_Counter0
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Other_Counter0
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Other_Counter1
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Other_Counter1
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Other_Counter2
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Other_Counter2
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Other_Counter3
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Other_Counter3
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Other_Counter4
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Other_Counter4
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Other_Counter5
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Other_Counter5
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Other_Counter6
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Other_Counter6
+variable add 0 0 0 0 0 0 0 0 0 0 7 7 0 0 Other_Counter7
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Other_Counter7
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 0 0 Other_Increment
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Other_Increment
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 PRBS
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 PRBS
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 PRBSFrekans
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 PRBSFrekans
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 PRBSFreKaydet
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 PRBSFreKaydet
+variable add 0 0 0 0 0 0 0 0 0 0 8 7 1 0 Rast_Step
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Rast_Step
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Rast_Step0
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Rast_Step0
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Rast_Step1
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Rast_Step1
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 RastFrekans
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 RastFrekans
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 RastgeleMain
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 RastgeleMain
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 RastStep
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 RastStep
+variable add 0 0 0 0 0 0 0 0 0 0 8 7 1 0 Read_Data
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Read_Data
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Read_Data0
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Read_Data0
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Read_Data1
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Read_Data1
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Read_Data2
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Read_Data2
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Read_Data3
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Read_Data3
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Read_Data4
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Read_Data4
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Read_Data5
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Read_Data5
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Read_Data6
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Read_Data6
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 Read_Data7
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Read_Data7
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 RESET
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 RESET
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 0 0 ResetCount
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 ResetCount
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 0 0 RstCnt2
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 RstCnt2
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 SFrekansKaydet
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 SFrekansKaydet
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 SStepKaydet
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 SStepKaydet
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 StandardFrekans
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 StandardFrekans
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 StandardMain
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 StandardMain
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 StandardStep
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 StandardStep
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 0 0 Start
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Start
+variable add 0 0 0 0 0 0 0 0 0 0 8 7 1 0 Start_Address
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Start_Address
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 Start_Address0
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Start_Address0
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 Start_Address1
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Start_Address1
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 Start_Address2
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Start_Address2
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 Start_Address3
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Start_Address3
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 Start_Address4
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 Start_Address4
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 STATE0
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 STATE0
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 STATE2
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 STATE2
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 STATE5
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 STATE5
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 STATE6
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 STATE6
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 STATE7
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 STATE7
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 STATE8
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 STATE8
+variable add 0 0 0 0 0 0 0 0 0 0 4 7 0 0 STATE9
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 STATE9
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 StepKaydet
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 StepKaydet
+variable add 0 0 0 0 0 0 0 0 0 0 3 7 0 0 SV0
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 SV0
+variable add 0 0 0 0 0 0 0 0 0 0 3 7 0 0 SV1
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 SV1
+variable add 0 0 0 0 0 0 0 0 0 0 3 7 0 0 SV2
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 SV2
+variable add 0 0 0 0 0 0 0 0 0 0 3 7 0 0 SV3
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 SV3
+variable add 0 0 0 0 0 0 0 0 0 0 3 7 0 0 SV4
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 SV4
+variable add 0 0 0 0 0 0 0 0 0 0 3 7 0 0 SV5
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 SV5
+variable add 0 0 0 0 0 0 0 0 0 0 3 7 0 0 SV6
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 SV6
+variable add 0 0 0 0 0 0 0 0 0 0 1 7 1 0 T_Buffer_Full
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 T_Buffer_Full
+variable add 0 0 0 0 0 0 0 0 0 0 8 7 1 0 T_Data
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 T_Data
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 T_Data0
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 T_Data0
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 T_Data1
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 T_Data1
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 T_Data2
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 T_Data2
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 T_Data3
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 T_Data3
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 T_Data4
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 T_Data4
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 T_Data5
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 T_Data5
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 T_Data6
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 T_Data6
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 T_Data7
+variable oe 0 0 0 0 0 0 0 0 0 0 16 0 0 0 T_Data7
+variable add 0 0 0 0 0 0 0 0 0 0 2 7 1 0 T_Write
+variable oe 0 0 0 0 0 0 0 0 0 0 0 0 0 0 T_Write
+state add 805 -1483 1348 -1738 805 -1738 1348 -1738 13 1 0 224 0 0 BantSecimiStart_Address=10;
+MainBantKaydet='1';
+state add 4700 -2050 5159 -2264 4700 -2264 5159 -2264 13 2 0 224 0 0 FrekansBandiStart_Address=9;
+state add 1100 -550 1643 -920 1100 -920 1643 -920 13 3 0 224 0 0 MainMenuStart_Address=0;
+ResetCount='1';
+state add 1700 -2553 2159 -2756 1700 -2756 2159 -2756 13 4 0 224 0 0 PRBSStart_Address=7;
+state add 3900 -2756 4359 -2959 3900 -2959 4359 -2959 13 5 0 224 0 0 PRBSFrekansStart_Address=8;
+state add 2600 -1700 3222 -1957 2600 -1957 3222 -1957 13 6 0 224 0 0 RastFrekansStart_Address=5;
+state add 2000 -1050 2459 -1293 2000 -1293 2459 -1293 13 7 0 224 0 0 RastgeleMainStart_Address=4;
+state add 4100 -1453 4559 -1693 4100 -1693 4559 -1693 13 8 0 224 0 0 RastStepStart_Address=6;
+state add 3100 -606 3559 -809 3100 -809 3559 -809 13 9 0 224 0 0 StandardFrekansStart_Address=2;
+state add 1900 -350 2359 -531 1900 -531 2359 -531 13 10 0 224 0 0 StandardMainStart_Address=1;
+state add 4097 -453 4556 -667 4097 -667 4556 -667 13 11 0 224 0 0 StandardStepStart_Address=3;
+state add 4450 -2400 4902 -2620 4450 -2620 4902 -2620 13 12 0 224 0 0 STATE0
+state add 450 -1150 902 -1370 450 -1370 902 -1370 13 13 0 224 0 0 STATE2
+state add 750 -3350 1202 -3570 750 -3570 1202 -3570 13 14 0 224 0 0 STATE5RstCnt2='1';
+state add 2700 -3700 3152 -3920 2700 -3920 3152 -3920 13 15 0 224 0 0 STATE6
+state add 1700 -3000 2150 -3200 1700 -3200 2150 -3200 13 16 0 224 0 0 STATE7
+state add 3050 -3400 3502 -3620 3050 -3620 3502 -3620 13 17 0 224 0 0 STATE8
+state add 2000 -4100 2452 -4320 2000 -4320 2452 -4320 13 18 0 224 0 0 STATE9
+state add 525 -3588 549 -3615 525 -3615 549 -3615 14 19 0 0 0 16 @default transition
+state add 0 -1197 24 -1224 0 -1224 24 -1224 14 20 0 0 0 16 @default transition
+state add 5050 -400 5502 -506 5050 -506 5502 -506 13 21 0 176 0 8 STATE2
+state add 500 -1800 952 -1906 500 -1906 952 -1906 13 22 0 176 0 8 STATE2
+state select 0 0 0 0 0 0 0 0 0 3 0 0 0 0 
+state attribute 0 0 0 0 0 0 0 0 0 0 0 0 0 0 sreg
+state select 0 0 0 0 0 0 0 0 0 14 0 0 0 0 
+state attribute 0 0 0 0 0 0 0 0 0 0 0 0 0 0 sreg1
+state select 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+transition add 1000 -1750 1452 -1828 1000 -1828 1452 -1959 0 22 0 0 0 0 Data_Present='1' Data_Read='1';
+
+graphic add 1040 -1736 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 976 -1759 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 911 -1783 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 846 -1808 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 2 0 0 0 0 
+transition add 5226 -1401 5678 -1532 5226 -1532 5678 -1610 0 21 0 0 0 0 ( Counter=6) and Data_Present='0'ResetCount='1';
+graphic add 5045 -2064 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 5165 -1542 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 5285 -1021 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 5406 -496 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 4953 -2344 5405 -2422 4953 -2422 5405 -2606 0 2 0 0 0 0 Data_Present='1' Data_Read='1';
+BantKaydet='1';
+Increment='1';
+graphic add 4952 -2263 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 5095 -2430 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4763 -2430 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4904 -2263 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 3 0 0 0 0 
+transition add 1094 -1120 1546 -1251 1094 -1251 1546 -1382 0 1 0 0 0 0 Data_Present='1' & (Data=52)Data_Read='1';
+Start='1';
+graphic add 1282 -909 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1188 -1101 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1094 -1293 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 999 -1488 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 1550 -300 2002 -431 1550 -431 2002 -562 0 10 0 0 0 0 Data_Present='1' & (Data=49)Data_Read='1';
+Start='1';
+graphic add 1637 -697 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1724 -610 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1812 -522 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1900 -434 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 1681 -826 2133 -957 1681 -957 2133 -1141 0 7 0 0 0 0 Data_Present='1' & (Data=50)Data_Read='1';
+Start='1';
+
+graphic add 1578 -854 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1720 -951 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1862 -1049 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2004 -1147 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 1232 -1909 1684 -2040 1232 -2040 1684 -2224 0 4 0 0 0 0 Data_Present='1' & (Data=51)Data_Read='1';
+Start='1';
+
+graphic add 1519 -889 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1581 -1470 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1643 -2051 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1705 -2632 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 4 0 0 0 0 
+transition add 2654 -2770 3106 -2901 2654 -2901 3106 -3032 0 5 0 0 0 0 Data_Present='1' & (Data=49)Data_Read='1';
+Start='1';
+graphic add 2154 -2674 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2738 -2725 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3323 -2777 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3908 -2830 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 3686 -2324 4138 -2455 3686 -2455 4138 -2586 0 12 0 0 0 0 Data_Present='1' & (Data=50)Data_Read='1';
+Start='1';
+graphic add 2125 -2602 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2974 -2570 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3976 -2606 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4489 -2447 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 1700 -2250 2152 -2434 1700 -2434 2152 -2512 0 4 0 0 0 0 Data_Present = '1'  & (Data /= 49)& (Data /= 50)Data_Read = '1';
+graphic add 1952 -2755 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2095 -2922 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1763 -2922 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1905 -2755 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 5 0 0 0 0 
+transition add 4374 -2678 4826 -2809 4374 -2809 4826 -2940 0 12 0 0 0 0 (Counter=6) and Data_Present = '0' ResetCount='1';
+Start='1';
+graphic add 4358 -2851 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4435 -2771 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4512 -2691 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4589 -2611 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 3900 -3097 4378 -3175 3900 -3175 4378 -3359 0 5 0 0 0 0 Data_Present='1'Increment='1';
+Data_Read='1';
+PRBSFreKaydet='1';
+graphic add 4202 -2953 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4168 -3080 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3964 -3125 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4102 -2958 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 6 0 0 0 0 
+transition add 2200 -1900 2652 -1978 2200 -1978 2652 -2162 0 6 0 0 0 0 Data_Present='1'Increment='1';
+Data_Read='1';
+FrekansKaydet='1';
+graphic add 2930 -1956 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2958 -2124 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2622 -2208 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2812 -1950 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 3400 -1650 3852 -1781 3400 -1781 3852 -1912 0 8 1 0 0 0 (Counter=24) and Data_Present = '0' ResetCount='1';
+Start='1';
+graphic add 3178 -1762 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3487 -1707 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3796 -1652 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4105 -1598 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 7 0 0 0 0 
+transition add 3125 -2022 3577 -2153 3125 -2153 3577 -2284 0 8 0 0 0 0 Data_Present='1' & (Data=50)Data_Read='1';
+Start='1';
+graphic add 2403 -1250 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1706 -2773 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3280 -2632 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4250 -1685 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 1800 -1394 2252 -1578 1800 -1578 2252 -1656 0 7 0 0 0 0 Data_Present = '1'  & (Data /= 49)& (Data /= 50)Data_Read = '1';
+graphic add 2252 -1292 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2395 -1459 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2063 -1459 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2200 -1291 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 2525 -1271 2977 -1455 2525 -1455 2977 -1586 0 6 2 0 0 0 Data_Present='1' & (Data=49)Data_Read='1';
+Start='1';
+graphic add 2457 -1157 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2425 -1614 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2517 -1700 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2813 -1706 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 8 0 0 0 0 
+transition add 4400 -1743 4852 -1821 4400 -1821 4852 -2005 0 8 0 0 0 0 Data_Present='1' Data_Read='1';
+StepKaydet='1';
+Increment='1';
+graphic add 4352 -1692 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4465 -1821 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4163 -1859 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4299 -1691 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 4650 -1050 5102 -1181 4650 -1181 5102 -1259 0 21 0 0 0 0 ( Counter=2) and Data_Present='0'ResetCount='1';
+graphic add 4549 -1538 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4802 -1194 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 5056 -849 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 5310 -505 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 9 0 0 0 0 
+transition add 3581 -359 4033 -490 3581 -490 4033 -621 0 11 0 0 0 0 (Counter=24) and Data_Present = '0' ResetCount='1';
+Start='1';
+graphic add 3559 -707 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3741 -648 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3923 -589 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4105 -531 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 3150 -200 3602 -278 3150 -278 3602 -462 0 9 0 0 0 0 Data_Present = '1' Increment='1';
+Data_Read='1';
+SFrekansKaydet='1';
+graphic add 3305 -606 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3163 -440 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3495 -440 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3350 -606 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 10 0 0 0 0 
+transition add 2402 -270 2854 -401 2402 -401 2854 -532 0 9 0 0 0 0 Data_Present='1' & (Data=49)Data_Read='1';
+Start='1';
+graphic add 2358 -445 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2605 -533 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2852 -622 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3100 -712 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 1900 -581 2352 -765 1900 -765 2352 -843 0 10 0 0 0 0 Data_Present = '1' & (Data /= 49)& (Data /= 50)Data_Read = '1';
+graphic add 2152 -530 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2295 -697 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1963 -697 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2100 -530 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 3050 -939 3502 -1070 3050 -1070 3502 -1201 0 11 0 0 0 0 Data_Present='1' & (Data=50)Data_Read='1';
+Start='1';
+graphic add 2291 -504 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2967 -932 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3433 -1133 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4185 -644 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 11 0 0 0 0 
+transition add 4600 -550 5052 -681 4600 -681 5052 -759 0 21 0 0 0 0 ( Counter=6) and Data_Present='0'ResetCount='1';
+graphic add 4554 -546 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4720 -517 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4886 -488 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 5052 -460 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 4100 -833 4552 -911 4100 -911 4552 -1095 0 11 0 0 0 0 Data_Present='1' Data_Read='1';
+SStepKaydet='1';
+Increment='1';
+graphic add 4349 -666 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4492 -833 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4160 -833 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4301 -666 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 12 0 0 0 0 
+transition add 0 0 0 0 0 0 0 0 0 2 0 0 0 0 
+graphic add 4764 -2408 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4780 -2357 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4797 -2303 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 4814 -2249 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 13 0 0 0 0 
+transition add 423 -929 875 -954 423 -954 875 -1032 0 3 0 0 0 0 Start = '1';
+graphic add 615 -1154 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 780 -1031 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 945 -909 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1111 -787 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 14 0 0 0 0 
+transition add 1100 -3100 1552 -3178 1100 -3178 1552 -3190 0 16 0 0 0 0 Start='1'
+graphic add 1182 -3414 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1354 -3310 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1527 -3205 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1700 -3101 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 15 0 0 0 0 
+transition add 2627 -4021 3154 -4099 2627 -4099 3154 -4283 0 18 0 0 0 0 T_Buffer_Full='0'T_Data=Read_Data;
+Other_Increment = '1';
+T_Write='1';
+graphic add 2768 -3889 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2662 -3987 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2554 -4086 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2446 -4186 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 16 0 0 0 0 
+transition add 2399 -3297 2851 -3322 2399 -3322 2851 -3400 0 17 0 0 0 0 Buffer_Read='1'
+graphic add 2138 -3069 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2516 -3179 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2895 -3289 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3274 -3400 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 17 0 0 0 0 
+transition add 0 0 0 0 0 0 0 0 0 15 0 0 0 0 
+graphic add 3176 -3608 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3125 -3642 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3074 -3676 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 3023 -3710 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 18 0 0 0 0 
+transition add 1300 -3850 1752 -3928 1300 -3928 1752 -4006 0 14 0 0 0 0 Other_Counter=255Finished='1'
+graphic add 2117 -4113 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1794 -3919 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1471 -3725 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1148 -3531 0 0 0 0 0 0 0 0 0 0 0 0 
+transition add 2100 -3600 2552 -3678 2100 -3678 2552 -3678 0 16 0 2 0 0 @ELSE
+graphic add 2220 -4100 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1988 -3592 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 2077 -3549 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 1966 -3198 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 19 0 0 0 0 
+transition add 350 -3450 802 -3528 350 -3528 802 -3528 0 14 0 0 0 0 RESET
+graphic add 537 -3601 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 610 -3562 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 683 -3524 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 756 -3486 0 0 0 0 0 0 0 0 0 0 0 0 
+state select 0 0 0 0 0 0 0 0 0 20 0 0 0 0 
+transition add 0 -1300 452 -1378 0 -1378 452 -1378 0 13 0 0 0 0 RESET
+graphic add 11 -1210 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 124 -1138 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 350 -1322 0 0 0 0 0 0 0 0 0 0 0 0 
+graphic add 470 -1214 0 0 0 0 0 0 0 0 0 0 0 0 
+text add 50 -300 502 -402 0 0 0 0 18 0 113 2 0 0 7:0Buffer_Data
+text add 0 -2050 1050 -2350 0 0 0 0 17 0 113 226 8 0 (((Counter+1) and Increment) or (Counter and not Increment))  and not ResetCountCounter
+text AR 0 0 0 0 0 0 0 0 0 0 1 0 0 0 CounterRESET
+text DT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Counter
+text add 50 -100 502 -202 0 0 0 0 18 0 113 2 0 0 7:0Data
+text add 0 -2350 904 -2452 0 0 0 0 17 0 17 226 8 0 Other_CounterMenu_Addres
+text add 0 -2450 1500 -2711 0 0 0 0 17 0 113 226 8 0 (((Other_Counter+1) and Other_Increment) or (Other_Counter and not Other_Increment))  and not RstCnt2Other_Counter
+text AR 0 0 0 0 0 0 0 0 0 0 1 0 0 0 Other_CounterRESET
+text DT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Other_Counter
+text add 50 -600 502 -702 0 0 0 0 18 0 113 2 0 0 1:0Rast_Step
+text add 50 -400 502 -502 0 0 0 0 18 0 113 2 0 0 7:0Read_Data
+text add 50 -500 502 -602 0 0 0 0 18 0 113 2 0 0 4:0Start_Address
+text add 50 -200 502 -302 0 0 0 0 18 0 113 2 0 0 7:0T_Data

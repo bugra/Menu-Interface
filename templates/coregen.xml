@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RootFolder label="COREGEN" treetype="folder" language="COREGEN">
+	<Folder label="VERILOG Component Instantiation" treetype="folder">
+		<Template label="dds" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+dds YourInstanceName (
+    .DATA(DATA),
+    .WE(WE),
+    .A(A),
+    .CLK(CLK),
+    .ACLR(ACLR),
+    .SINE(SINE));
+
+ 
+		</Template>
+	</Folder>
+	<Folder label="VHDL Component Instantiation" treetype="folder">
+		<Template label="dds" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component dds
+    port (
+    DATA: IN std_logic_VECTOR(26 downto 0);
+    WE: IN std_logic;
+    A: IN std_logic_VECTOR(4 downto 0);
+    CLK: IN std_logic;
+    ACLR: IN std_logic;
+    SINE: OUT std_logic_VECTOR(3 downto 0));
+end component;
+
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : dds
+        port map (
+            DATA =&gt; DATA,
+            WE =&gt; WE,
+            A =&gt; A,
+            CLK =&gt; CLK,
+            ACLR =&gt; ACLR,
+            SINE =&gt; SINE);
+ 
+		</Template>
+	</Folder>
+</RootFolder>

@@ -1,0 +1,50 @@
+# BEGIN Project Options
+SET flowvendor = Foundation_iSE
+SET vhdlsim = True
+SET verilogsim = True
+SET workingdirectory = C:\mehmetoglu\ise3
+SET speedgrade = -12
+SET simulationfiles = Behavioral
+SET asysymbol = True
+SET addpads = False
+SET device = xc4vfx12
+SET implementationfiletype = Edif
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ff668
+SET createndf = False
+SET designentry = VHDL
+SET devicefamily = virtex4
+SET formalverification = False
+SET removerpms = False
+# END Project Options
+# BEGIN Select
+SELECT Direct_Digital_Synthesizer family Xilinx,_Inc. 5.0
+# END Select
+# BEGIN Parameters
+CSET output_frequencies=0.0
+CSET pipelined=true
+CSET create_rpm=false
+CSET phase_offset_angles=0.0
+CSET phase_increment=Programmable
+CSET spurious_free_dynamic_range=36.0
+CSET memory_type=Auto
+CSET sclr_pin=false
+CSET clock_enable=false
+CSET negative_sine=false
+CSET outputs_required=Sine
+CSET phase_offset=Programmable
+CSET component_name=dds
+CSET rdy_pin=false
+CSET channels=1
+CSET noise_shaping=Auto
+CSET accumulator_latency=One_Cycle
+CSET frequency_resolution=1
+CSET negative_cosine=false
+CSET channel_pin=false
+CSET dds_clock_rate=100.0
+CSET rfd_pin=false
+CSET aclr_pin=true
+# END Parameters
+GENERATE
+

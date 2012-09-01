@@ -1,0 +1,50 @@
+ command line:
+   ./test_top_module_vhd_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1795
+
+Tue Aug 25 16:20:42 2009
+
+Total Line Count = 6011
+
+ Elaboration time 0.140625 sec.
+
+ Estimate current memory usage 58.3434 Meg. 
+
+ Total signals 932
+ Total nets 66813
+ Total signal drivers 361
+ Total blocks 114
+ Total primitive blocks 95
+ Total processes 263
+ntrace select -o on -n /test_top_module_vhd/write_tx_fifo 
+ntrace select -o on -n /test_top_module_vhd/tx_data 
+ntrace select -o on -n /test_top_module_vhd/rx 
+ntrace select -o on -n /test_top_module_vhd/tx_buffer_full 
+ntrace select -o on -n /test_top_module_vhd/tx_buffer_empty 
+ntrace select -o on -n /test_top_module_vhd/uut/sfrekanskaydet 
+ntrace select -o on -n /test_top_module_vhd/uut/sfrekansadresi 
+ntrace select -o on -n /test_top_module_vhd/uut/Diagram/SHELL1_DIAGRAM1/sreg 
+ntrace select -o on -n /test_top_module_vhd/uut/sstepadresi 
+ntrace select -o on -n /test_top_module_vhd/uut/merkezfrekans 
+WARNING:Simulator:93 - Request to trace signal
+   /test_top_module_vhd/uut/merkezfrekans was ignored. Tracing of array of array
+   type is not supported.
+ntrace select -o on -n /test_top_module_vhd/uut/frekansbandi 
+WARNING:Simulator:93 - Request to trace signal
+   /test_top_module_vhd/uut/frekansbandi was ignored. Tracing of array of array
+   type is not supported.
+ntrace select -o on -n /test_top_module_vhd/uut/bantkaydet 
+ntrace select -o on -n /test_top_module_vhd/uut/prbsfrekaydet 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+WARNING:Simulator:29 - at 0 ns: Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an
+   arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+restart
+run 100000 us 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+run 100000 us 
